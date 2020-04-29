@@ -13,8 +13,10 @@ q = np.zeros([6,6],dtype=np.float32)
 
 p = r+1
 #print(p)
-# print(q.any())
 # print(r.any())
+# print(q.any())
+# print(r.all())
+# print((q+1).all())
 r = np.array([[-1, -1, -1, -1, -0, -1], [0, 0, 0, 0, 0, 0],[0,0,0,0,0,8]])
 #if not r[1].any():
 #    print("1")
@@ -64,8 +66,9 @@ if i != -1 and j != -1:
 else:
     print("2")
 '''
-import this
+#import this
 
-for n in range(1,3):
-    print(n)
+firststate = [8,9,13,16,19,22,26,27]
+for i in firststate:
+    print(i)
 

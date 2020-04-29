@@ -30,10 +30,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.YAML" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test3">
-    <configuration name="test1_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test1_v3">
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -45,28 +45,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1_v1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1_v2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,6 +67,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1_v3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1_v4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,19 +139,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test1_v1" />
-      <item itemvalue="Python.test1_v2" />
+      <item itemvalue="Python.test1" />
       <item itemvalue="Python.test1_v3" />
+      <item itemvalue="Python.test1_v4" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.test3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test3" />
-        <item itemvalue="Python.test1_v1" />
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test1_v2" />
         <item itemvalue="Python.test1_v3" />
+        <item itemvalue="Python.test3" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1_v4" />
+        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -185,50 +185,54 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="11" key="#test1/0.0.1366.728@0.0.1366.728" timestamp="1585555264945" />
-    <state width="1344" height="41" key="GridCell.Tab.0.bottom" timestamp="1587550309162">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1587886014553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="41" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587550309162" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587886014553" />
+    <state width="1344" height="47" key="GridCell.Tab.0.bottom" timestamp="1588068607341">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1344" height="47" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588068607341" />
     <state width="1344" height="28" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="41" key="GridCell.Tab.0.center" timestamp="1587550309162">
+    <state width="1344" height="47" key="GridCell.Tab.0.center" timestamp="1588068607341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="41" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587550309162" />
+    <state width="1344" height="47" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588068607341" />
     <state width="1344" height="28" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="41" key="GridCell.Tab.0.left" timestamp="1587550309162">
+    <state width="1344" height="47" key="GridCell.Tab.0.left" timestamp="1588068607341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="41" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587550309162" />
+    <state width="1344" height="47" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588068607341" />
     <state width="1344" height="28" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="41" key="GridCell.Tab.0.right" timestamp="1587550309162">
+    <state width="1344" height="47" key="GridCell.Tab.0.right" timestamp="1588068607341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="41" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587550309162" />
+    <state width="1344" height="47" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588068607341" />
     <state width="1344" height="28" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="141" key="GridCell.Tab.1.bottom" timestamp="1586342118245">
+    <state width="1344" height="26" key="GridCell.Tab.1.bottom" timestamp="1588047876106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="141" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1586342118245" />
+    <state width="1344" height="26" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
     <state width="1344" height="102" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state width="1344" height="141" key="GridCell.Tab.1.center" timestamp="1586342118245">
+    <state width="1344" height="26" key="GridCell.Tab.1.center" timestamp="1588047876106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="141" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1586342118245" />
+    <state width="1344" height="26" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
     <state width="1344" height="102" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state width="1344" height="141" key="GridCell.Tab.1.left" timestamp="1586342118245">
+    <state width="1344" height="26" key="GridCell.Tab.1.left" timestamp="1588047876106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="141" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1586342118245" />
+    <state width="1344" height="26" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
     <state width="1344" height="102" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585563257929" />
-    <state width="1344" height="141" key="GridCell.Tab.1.right" timestamp="1586342118245">
+    <state width="1344" height="26" key="GridCell.Tab.1.right" timestamp="1588047876106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="141" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1586342118245" />
+    <state width="1344" height="26" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
     <state width="1344" height="102" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1587520070806">
+    <state x="186" y="0" key="SettingsEditor" timestamp="1587638777649">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587520070806" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587638777649" />
     <state x="404" y="94" width="540" height="524" key="StructurePopup" timestamp="1585727298982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -237,15 +241,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587371079268" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1587519996672">
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1588124639563">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587519996672" />
-    <state x="567" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586571751204" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587461514640">
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588124639563" />
+    <state x="567" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587801129678" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588044752908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587461514640" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588044752908" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585559009416" />
   </component>
 </project>
