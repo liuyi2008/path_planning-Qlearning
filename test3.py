@@ -296,6 +296,9 @@ def changeme(q):
 
 
 
-print(q)
-changeme(q)
-print(q)
+# print(q)
+# changeme(q)
+# print(q)
+import random
+for i in range(10):
+    print(random.choice([8, 9, 13, 16, 19, 22, 26, 27]))

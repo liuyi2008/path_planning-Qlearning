@@ -12,6 +12,10 @@ r = np.array([[-1, -1, -1, -1, -0, -1], [-1, -1, -1, -0, -1, 100], [-1, -1, -1, 
 q = np.zeros([6,6],dtype=np.float32)
 
 p = r+1
+
+print(r[2])
+r[2]+=4
+print(r[2])
 #print(p)
 # print(r.any())
 # print(q.any())
@@ -68,7 +72,5 @@ else:
 '''
 #import this
 
-firststate = [8,9,13,16,19,22,26,27]
-for i in firststate:
-    print(i)
+
 

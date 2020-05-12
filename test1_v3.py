@@ -7,8 +7,8 @@
 #          2减少拐弯的算法不再使用论文中的，而是在选择路径时加判断
 #                                     选择路径时加判断不可行
 # 4.27改进：1起点为4度点
-#         2优先选择非桥（把4度点的奖赏调低）
-#         3少拐弯，内2度点第二高
+# #         2优先选择非桥（把4度点的奖赏调低）
+# #         3少拐弯，内2度点第二高
 import numpy as np
 import random
 
@@ -164,8 +164,8 @@ q = np.zeros([36, 36], dtype=np.float32)
 
 gamma = 0.8
 
-state = random.randint(0, 35)  # 初始状态初始化
 for step in range(10000):
+    state = random.randint(0, 35)  # 初始状态初始化
     next_state_list = []
     for i in range(36):  # 当前state下的所有动作，收集到next_state_list
         if r[state, i] != -1:
