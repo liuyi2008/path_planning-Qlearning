@@ -32,51 +32,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test1_v4">
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test1_v3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1_v3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.v5_point">
     <configuration name="test1_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+      <module name="path_planning-Qlearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -97,7 +55,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+      <module name="path_planning-Qlearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -118,7 +76,7 @@
       <method v="2" />
     </configuration>
     <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
+      <module name="path_planning-Qlearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -138,20 +96,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="v5_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="path_planning-Qlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v5_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v5_side" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="path_planning-Qlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\pycharm project\untitled\v5_side.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test1" />
-      <item itemvalue="Python.test1_v3" />
       <item itemvalue="Python.test1_v4" />
       <item itemvalue="Python.test2" />
       <item itemvalue="Python.test3" />
+      <item itemvalue="Python.v5_point" />
+      <item itemvalue="Python.v5_side" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test1_v4" />
+        <item itemvalue="Python.v5_point" />
+        <item itemvalue="Python.v5_side" />
         <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1_v4" />
         <item itemvalue="Python.test3" />
-        <item itemvalue="Python.test1_v3" />
-        <item itemvalue="Python.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -185,30 +185,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="398" y="11" key="#test1/0.0.1366.728@0.0.1366.728" timestamp="1585555264945" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1587886014553">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589793403323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587886014553" />
-    <state width="1344" height="29" key="GridCell.Tab.0.bottom" timestamp="1589282973797">
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589793403323" />
+    <state width="1344" height="237" key="GridCell.Tab.0.bottom" timestamp="1589969755464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="29" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589282973797" />
-    <state width="1344" height="28" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="29" key="GridCell.Tab.0.center" timestamp="1589282973797">
+    <state width="1344" height="32" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098531" />
+    <state width="1344" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
+    <state width="1344" height="237" key="GridCell.Tab.0.center" timestamp="1589969755464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="29" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589282973797" />
-    <state width="1344" height="28" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="29" key="GridCell.Tab.0.left" timestamp="1589282973797">
+    <state width="1344" height="32" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
+    <state width="1344" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
+    <state width="1344" height="237" key="GridCell.Tab.0.left" timestamp="1589969755464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="29" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589282973797" />
-    <state width="1344" height="28" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
-    <state width="1344" height="29" key="GridCell.Tab.0.right" timestamp="1589282973797">
+    <state width="1344" height="32" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
+    <state width="1344" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
+    <state width="1344" height="237" key="GridCell.Tab.0.right" timestamp="1589969755464">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1344" height="29" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589282973797" />
-    <state width="1344" height="28" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586531269394" />
+    <state width="1344" height="32" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
+    <state width="1344" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
     <state width="1344" height="26" key="GridCell.Tab.1.bottom" timestamp="1588047876106">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,15 +241,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587371079268" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1589283063687">
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1590371037982">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589283063687" />
+    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1590371037982" />
     <state x="567" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589184939539" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588044752908">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589794171645">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588044752908" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589794171645" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585559009416" />
   </component>
 </project>

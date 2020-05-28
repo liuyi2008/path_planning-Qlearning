@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/untitled.iml" filepath="$PROJECT_DIR$/.idea/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/path_planning-Qlearning.iml" filepath="$PROJECT_DIR$/.idea/path_planning-Qlearning.iml" />
     </modules>
   </component>
 </project>

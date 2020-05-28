@@ -12,10 +12,10 @@ r = np.array([[-1, -1, -1, -1, -0, -1], [-1, -1, -1, -0, -1, 100], [-1, -1, -1, 
 q = np.zeros([6,6],dtype=np.float32)
 
 p = r+1
-
-print(r[2])
+print(q)
+#print(r[2])
 r[2]+=4
-print(r[2])
+#print(r[2])
 #print(p)
 # print(r.any())
 # print(q.any())
@@ -71,6 +71,7 @@ else:
     print("2")
 '''
 #import this
+
 
 
 

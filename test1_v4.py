@@ -6,14 +6,10 @@
 
 # 改r矩阵，现在state表示边，r矩阵反应边的连接关系
 # 优先选择非桥：桥0.5
-# 不可逆向：0.1
 # 转弯：0.8
 # 走直线：1
-# 只有一条路走：1
-# 想法，走势，4 1
-        #  3  2
+#state 去了 next_state，把state清空，还有能去的除了next state也清空
 
-        #state 去了 next_state，把state清空，还有能去的除了next state也清空
 import numpy as np
 import random
 np.set_printoptions(threshold = 1e6)
@@ -449,7 +445,7 @@ print(q)
 def findIndex(value, list):
     for i in range(len(list)):
         if value == list[i]:
-            return i + 1
+            return i
     return False
 
 
@@ -491,6 +487,6 @@ def findPath(start, q):
 
 firststate = [9,21,22,34]  # 从桥开始
 for state in firststate:
-    print("it's {}st test.........".format(findIndex(state, firststate)))
+    print("it's {}st test.........".format(findIndex(state, firststate)+1))
     q1 = q.copy()
     findPath(state, q1)
