@@ -10,6 +10,7 @@ import numpy as np
 import random
 np.set_printoptions(threshold = 1e6)
 
+
 # -1不通 实验旅行商问题的图
 def initiaR2():
     r = np.ones((5, 5), dtype=np.float32)
@@ -40,6 +41,7 @@ def initiaR2():
 
     return r
 
+
 def main():
     print("...................learning.......................")
     q = Qlearning()
@@ -55,10 +57,11 @@ def main():
     print(".................finding best path.......................")
     for i in range(q.shape[0]):
         q1 = q.copy()
-        jumptime.append(find_num_Path(i,q1))
+        jumptime.append(find_num_Path(i, q1))
     start = findIndex(min(jumptime),jumptime)
     findPath(start,q)
     print(jumptime)
+
 
 #  训练过程
 def Qlearning():

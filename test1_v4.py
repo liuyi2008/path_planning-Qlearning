@@ -226,7 +226,8 @@ def initiaR():
 #走直线（除了桥）全是1
 def initiaR():
     r = np.ones((44, 44), dtype=np.float32)
-    r = r * (-1)
+    #r = r * (-1)
+    r = r * 0
     r[0, 1] = 1
     r[0, 4] = 1
     r[1, 0] = 1
@@ -489,4 +490,4 @@ firststate = [9,21,22,34]  # 从桥开始
 for state in firststate:
     print("it's {}st test.........".format(findIndex(state, firststate)+1))
     q1 = q.copy()
-    findPath(state, q1)
+    findPath(state, r)

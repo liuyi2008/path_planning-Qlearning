@@ -3,12 +3,14 @@
 # @Author : liuyi
 # @File : v5_side.py
 # @Software : PyCharm
+# 6.12改进了学习算法
 
 #路径有随机性，主要是之前采取选择下一步的策略是：有多个最大值时随机选择，现改为选第一个
 
 import numpy as np
 import random
 np.set_printoptions(threshold=1e6)
+
 
 # 单边六边形图
 def initiaR():
@@ -903,6 +905,7 @@ def LandR3():
 
     return r
 
+
 #实验六边形双边图，联通全1
 def initiaR4():
     r = np.ones((30, 30), dtype=np.float32)
@@ -1335,36 +1338,6 @@ def initiaR5():
     return r
 
 
-def main():
-    print("...................learning.......................")
-    r = initiaR3()
-
-    print(r)
-    q = Qlearning(r)
-    print(q)
-
-    #print("...................寻找路径.......................")
-    # for i in range(5):
-    #     start = random.randint(0, 41)
-    #     print("it's ",i+1,"st path,start with",start)
-    #     q1 = q.copy()
-    #     findPath(start, q1)
-    #     print("....................................................")
-#  想法：训练好现有的Q，每一个点都走一遍，然后在选一个最优的
-    jumptimes = []
-    print(".................finding best path.......................")
-
-    for i in range(q.shape[0]):
-        q1 = q.copy()
-        jumptimes.append(find_num_Path(i, q1))
-
-    start = findIndex(min(jumptimes), jumptimes)
-    print(".................display best path.......................")
-
-    findPath(start, q)
-
-    print(jumptimes)
-
 #  训练过程
 def Qlearning(r):
 
@@ -1376,6 +1349,7 @@ def Qlearning(r):
 
     for step in range(1000):
         state = random.randint(0, digit-1)
+        #state = 0
         for j in range(digit):
             next_state_list = []
             for i in range(digit):
@@ -1389,7 +1363,48 @@ def Qlearning(r):
     return q
 
 
-#  找到值在表中的序数,从0开始的
+def Qlearning1(r):
+    epsilon = 0.9  # 贪婪度 greedy
+    alpha = 0.1  # 学习率
+    gamma = 0.8  # 奖励递减值
+
+    digit = r.shape[0]
+    q = np.zeros([digit, digit], dtype=np.float32)
+
+    for i in range(100000):  #  一直学习指导Q矩阵收敛
+        #current_state = random.choice(range(digit))
+        current_state = 12
+
+        #while current_state != states[-1]:
+        for j in range(digit):
+            next_state_list = []
+            for action in range(digit):
+                if r[current_state, action] != -1:
+                    next_state_list.append(action)
+
+            if (random.uniform(0, 1) > epsilon) or ((q[current_state] == 0).all()):  # 探索
+                #current_action = random.choice(get_valid_actions(current_state))
+                next_state = random.choice(next_state_list)  #验证
+            else:
+                #current_action = q.ix[current_state].idxmax()  # 利用（贪婪）
+                next_state = findIndex(q[current_state].max(),q[current_state])#验证
+
+            #next_state = get_next_state(current_state, current_action)
+
+            #next_state_q_values = q.ix[next_state, get_valid_actions(next_state)]
+
+            #q[current_state, next_state] += alpha * (
+                    #r[current_state,next_state] + gamma * q[next_state].max() - q[current_state, next_state])
+
+            q[current_state, next_state] =(1-alpha) * q[current_state, next_state] + alpha * (
+                    r[current_state, next_state] + gamma * q[next_state].max())
+
+            current_state = next_state
+
+    return q
+
+
+#  找到值在表中的序数,其实就是对应的动作，从0开始的
 def findIndex(value, list):
     for i in range(len(list)):
         if value == list[i]:
@@ -1430,7 +1445,6 @@ def findPath(start, q):
         for action in range(linenum):  # 删除掉同一方向的边
             if r_v2[state,action] == r_v2[state,prevstate]:
                 q[state,action] = 0
-
 
         q_max = q[state].max()  # 状态state这一行里的最大值，即回报最大的动作的回报值
         q_max_action = []
@@ -1510,6 +1524,42 @@ def find_num_Path(start, q):
         prevstate = state
         state = next_state
     return jumpnum
+
+
+def main():
+    print("...................learning.......................")
+    r = initiaR3()
+
+    # for i in range(30):
+    #     for j in range(30):
+    #         if r[i,j] == -1:
+    #             r[i,j] = 0
+
+    print(r)
+    q = Qlearning1(r)
+    print(q)
+
+    #print("...................寻找路径.......................")
+    # for i in range(5):
+    #     start = random.randint(0, 41)
+    #     print("it's ",i+1,"st path,start with",start)
+    #     q1 = q.copy()
+    #     findPath(start, q1)
+    #     print("....................................................")
+#  想法：训练好现有的Q，每一个点都走一遍，然后在选一个最优的
+    jumptimes = []
+    print(".................finding best path.......................")
+
+    for i in range(r.shape[0]):
+        q1 = q.copy()
+        jumptimes.append(find_num_Path(i, q1))
+
+    #start = findIndex(min(jumptimes), jumptimes)
+    print(".................display best path.......................")
+
+    findPath(12, q)
+
+    print(jumptimes)
 
 
 if __name__ == "__main__":  # 整个程序的入口

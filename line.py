@@ -35,6 +35,7 @@ def update_env(state):
     print('\r{}'.format(''.join(env)), end='')
     time.sleep(0.1)
 
+
 def get_next_state(state, action):
     '''对状态执行动作后，得到下一状态'''
     global states
@@ -48,6 +49,7 @@ def get_next_state(state, action):
         next_state = state
     return next_state
 
+
 def get_valid_actions(state):
     '''取当前状态下的合法动作集合，与reward无关！'''
     global actions  # ['left', 'right']
@@ -58,6 +60,7 @@ def get_valid_actions(state):
     if state == states[0]:  # 最前一个状态（位置），则
         valid_actions -= set(['left'])  # 不能向左
     return list(valid_actions)
+
 
 for i in range(13):
     # current_state = random.choice(states)
@@ -85,5 +88,5 @@ for i in range(13):
     time.sleep(2)  # 环境相关
     print('\r                                ', end='')  # 环境相关
 
-print('\nq_table:')
-print(q_table)
+#print('\nq_table:')
+#print(q_table)

@@ -5,6 +5,11 @@
 #@Software : PyCharm
 import numpy as np
 import random
+def findIndex(value, list):
+    for i in range(len(list)):
+        if value == list[i]:
+            return i
+    return False
 
 r = np.array([[-1, -1, -1, -1, -0, -1], [-1, -1, -1, -0, -1, 100], [-1, -1, -1, -0, -1, -1], [-1, -0, -0, -1, -0, -1],
               [-0, -1, -1, -0, -1, 100], [-1, -0, -1, -1, -0, 100]])
@@ -12,8 +17,11 @@ r = np.array([[-1, -1, -1, -1, -0, -1], [-1, -1, -1, -0, -1, 100], [-1, -1, -1, 
 q = np.zeros([6,6],dtype=np.float32)
 
 p = r+1
-print(q)
-#print(r[2])
+#print(q)
+r[2] = 0
+print(r)
+r[:,2] = 0
+print(r)
 r[2]+=4
 #print(r[2])
 #print(p)
