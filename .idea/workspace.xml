@@ -25,14 +25,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Python.v5_point">
+  <component name="RunManager" selected="Python.v5_side (1)">
     <configuration name="test1_v4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="path_planning-Qlearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,27 +76,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="path_planning-Qlearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="v5_point" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="path_planning-Qlearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,6 +89,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v5_point.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="v5_side (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="path_planning-Qlearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/v5_side.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,17 +142,17 @@
     <list>
       <item itemvalue="Python.test1_v4" />
       <item itemvalue="Python.test2" />
-      <item itemvalue="Python.test3" />
       <item itemvalue="Python.v5_point" />
       <item itemvalue="Python.v5_side" />
+      <item itemvalue="Python.v5_side (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.v5_point" />
+        <item itemvalue="Python.v5_side (1)" />
         <item itemvalue="Python.v5_side" />
+        <item itemvalue="Python.v5_point" />
         <item itemvalue="Python.test2" />
         <item itemvalue="Python.test1_v4" />
-        <item itemvalue="Python.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -169,87 +170,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="24" key="#Notifications" timestamp="1587442082837">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1599289454408">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="275" y="24" key="#Notifications/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587442082837" />
-    <state x="127" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585650350591">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599289454408" />
+    <state width="1515" height="70" key="GridCell.Tab.0.bottom" timestamp="1599292839387">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="127" y="42" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1585650350591" />
-    <state x="407" y="171" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585550895867">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="70" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599292839387" />
+    <state width="1515" height="70" key="GridCell.Tab.0.center" timestamp="1599292839386">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="407" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585550895867" />
-    <state x="398" y="11" key="#test1" timestamp="1585555264945">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="70" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599292839386" />
+    <state width="1515" height="70" key="GridCell.Tab.0.left" timestamp="1599292839386">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="398" y="11" key="#test1/0.0.1366.728@0.0.1366.728" timestamp="1585555264945" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589793403323">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="70" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599292839386" />
+    <state width="1515" height="70" key="GridCell.Tab.0.right" timestamp="1599292839387">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589793403323" />
-    <state width="1344" height="237" key="GridCell.Tab.0.bottom" timestamp="1589969755464">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1515" height="70" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599292839387" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1599289600810">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1344" height="32" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098531" />
-    <state width="1344" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
-    <state width="1344" height="237" key="GridCell.Tab.0.center" timestamp="1589969755464">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="32" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
-    <state width="1344" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
-    <state width="1344" height="237" key="GridCell.Tab.0.left" timestamp="1589969755464">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="32" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
-    <state width="1344" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
-    <state width="1344" height="237" key="GridCell.Tab.0.right" timestamp="1589969755464">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="32" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589969098530" />
-    <state width="1344" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589969755464" />
-    <state width="1344" height="26" key="GridCell.Tab.1.bottom" timestamp="1588047876106">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="26" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
-    <state width="1344" height="102" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state width="1344" height="26" key="GridCell.Tab.1.center" timestamp="1588047876106">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="26" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
-    <state width="1344" height="102" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state width="1344" height="26" key="GridCell.Tab.1.left" timestamp="1588047876106">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="26" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
-    <state width="1344" height="102" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1585563257929" />
-    <state width="1344" height="26" key="GridCell.Tab.1.right" timestamp="1588047876106">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1344" height="26" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1588047876106" />
-    <state width="1344" height="102" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1585563257930" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1587638777649">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587638777649" />
-    <state x="404" y="94" width="540" height="524" key="StructurePopup" timestamp="1585727298982">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="404" y="94" width="540" height="524" key="StructurePopup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1585727298982" />
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1587371079268">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="92" y="92" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1587371079268" />
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1590371037982">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="375" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1590371037982" />
-    <state x="567" y="175" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589184939539" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589794171645">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1440.900@0.0.1366.728" timestamp="1589794171645" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1585559009416" />
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599289600810" />
   </component>
 </project>
